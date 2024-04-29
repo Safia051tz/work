@@ -1,0 +1,32 @@
+<!Doctype html>
+<html lang="en">
+    <body>
+        <table border="1" >
+            <tr>
+                <td>Normal cell</td>
+                <th colspan="4">Table Heading Cell Spanning 4</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Cell spanning 3 rows with a bacground</td>
+                <td colspan="2">Cell spanning 2 column</td>
+                <td>Normal Cell</td>
+            </tr>
+            <tr>
+                <td>Normal Cell</td>
+                <td>Normal Cell</td>
+                <td>Normal Cell</td>
+            </tr>
+            <tr>
+                <td>Normal Cell</td>
+                <td>Normal Cell</td>
+                <td>Normal Cell</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">cell spanning 2 rows and 2 column</td>
+                <td>Normal Cell</td>
+                <td>Normal Cell</td>
+            </tr>
+        </table>
+    </body>
+</html>     
+     
